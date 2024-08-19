@@ -1,0 +1,8 @@
+<launch>
+    <node name="local_to_enu" pkg="local_to_enu" type="local_to_enu_transformer.py" output="screen">
+    <rosparam command="load" file="$(find local_to_enu)/config/local_to_enu_transformer.yaml"/>
+    </node>
+    <!-- <node name="rock_confirmation" pkg="rock_detection_3d" type="rock_confirmer_class.py" output="screen">
+    <rosparam command="load" file="$(find rock_detection_3d)/config/rock_detection_3d.yaml"/>
+    </node> -->
+</launch>
