@@ -11,7 +11,7 @@ find_package(message_generation REQUIRED)
 find_package(catkin REQUIRED COMPONENTS
   rospy
   std_msgs
-  geographic_msgs
+  # geographic_msgs
   rock_detection_msgs
 
   # message_generation
